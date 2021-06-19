@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> SignUP</title>
+    <link rel="stylesheet" href="master2.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <form id="main2" action="payment.php" method="post">
+                <label>Phone: </label>
+                <input type="text" name="mobile" id="name" placeholder="Enter your 10 Digit Phone no.">
+                <br><br>
+                <label>Email: </label>
+                <input type="email" name="email" id="name" placeholder="Enter your valid mail">
+                <br><br>
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HOc15PYonucZCy" async>
+                </script>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
